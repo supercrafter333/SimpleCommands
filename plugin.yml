@@ -3,4 +3,21 @@ main: HannesTheDev\Main
 api: 3.0.0
 version: 1.0.0
 author: HannesTheDev
-description: Ein PocketMine-MP Plugon
+description: Coole Features verpackt als Commands!
+
+commands:
+  fly:
+    permission: fly.command
+    description: Aktiviere oder Deaktiviere den Flugmodus
+  feed:
+    permission: feed.command
+    description: Fülle deine Hungersleiste
+  heal:
+    permission: heal.command
+    description: Fülle dein Leben
+  tag:
+    permission: tag.command
+    description: Schalte die Uhrzeit auf Tag
+  nacht:
+    permission: nacht.command
+    description: Schalte die Uhrzeit auf Nacht
