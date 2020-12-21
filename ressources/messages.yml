@@ -1,1 +1,31 @@
+---
+#Hier kannst du die Nachrichten von den Commands ändern.
 
+#/fly Command
+fly-aktiviert: "§7Der Flugmodus wurde erfolgreich §aaktiviert§7!"
+fly-deaktiviert: "§7Der Flugmodus wurde erfolgreich §4deaktiviert§7!"
+fly-keine-berechtigung: "§cDu hast dafür keine Berechtigung!"
+fly-konsole: "§cDu musst ein Spieler sein, diesen Befehl auszuführen!"
+
+#/heal Command
+heal-erfolgreich: "§7Du hast erfolgreich dein Leben §agefüllt§7!"
+heal-keine-berechtigung: "§cDu hast dafür keine Berechtigung!"
+heal-konsole: "§cDu musst einen Spieler sein um diesen Befehl auszuführen!"
+
+#/feed Command
+heal-erfolgreich: "§7Du hast erfolgreich deine Hungersleiste §aaufgefüllt§7!"
+heal-keine-berechtigung: "§cDu hast dafür keine Berechtigung!"
+heal-konsole: "§cDu musst ein Spieler sein diesen Command auszuführen!"
+
+#/tag Command
+heal-erfolgreich: "§7Du hast erfolgreich die Zeit auf §aTag §7gemacht!"
+heal-keine-berechtigung: "§cDu hast dafür keine Berechtigung!"
+heal-konsole: "§cDu musst ein Spieler sein, diesen Befehl auszuführen!"
+
+#/nacht Command
+heal-erfolgreich: "§7Du hast erfolgreich die Zeit auf Nacht §agestellt§7!"
+heal-keine-berechtigung: "§cDu hast dafür keine Berwchtigung!"
+heal-konsole: "§cDu musst ein Spieler sein diesen Befehl auszuführen!"
+
+#Coded by HannesTheDev Discord: #2941
+...
