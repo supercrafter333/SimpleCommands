@@ -4,6 +4,7 @@ api: 3.0.0
 version: 1.0.0
 author: HannesTheDev
 description: Coole Features verpackt als Commands!
+website: https://github.com/HannesTheDev/SimpleCommands
 
 commands:
   fly:
