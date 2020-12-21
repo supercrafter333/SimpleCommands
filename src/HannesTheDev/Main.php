@@ -20,6 +20,7 @@ class Main extends PluginBase implements Listener{
   public function onEnable(){
     $this->getLogger->info("Plugin aktiviert");
     $this->getServer->getPluginManager->registerEvents($this, $this);
+    $this->saveResource("messages.yml");
   }
   
   public function onDisable(){
