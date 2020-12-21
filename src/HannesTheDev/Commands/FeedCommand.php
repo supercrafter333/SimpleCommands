@@ -1,0 +1,33 @@
+<?php
+
+namespace HannesTheDev\Commands;
+
+use pocketmine\command\CommandSender;
+use pocketmine\Server;
+use pocketmine\Player;
+use pocketmine\event\Listener;
+use pocketmine\command\Command;
+use HannesTheDev\Main;
+
+class FeedCommand extends Command implements Listener{
+  
+  public function onCommand(Command $cmd, CommandSender $sender, string $label, array $args) : bool{
+    $feed = new Config($this->plugin->getDataFolder() . "messages.yml", Config::YAML);
+    if($cmd->getName() == "feed"){
+      if($sender instanceof Player){
+        if($sender->hasPermission("feed.command")){
+          $sender->setFood(20);
+          $sender->sendMessage("§8[§bSC§8] " . $feed->get("feed-erfolgreich"));
+          return true;
+        } else {
+          $sender->sendMessage("§8[§bSC§8] " . $feed->get("feed-keine-berechtigung"));
+          return true;
+        }
+      } else {
+        $sender->sendMessage("§8[§bSC§8] " . $feed->get("feed-konsole"));
+        return true;
+      }
+      break;
+    }
+  }
+}
